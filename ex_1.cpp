@@ -1,3 +1,4 @@
+/* Aim:           */
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -52,3 +53,8 @@ int main()
     cout << "}\n";
     return 0;
 }
+/*Output:Enter the equation: x=y+2*z                                                                                           
+
+ Operator:{=,+,*}
+ Charcter:{x,y,z}
+ Number:{2}                 */
