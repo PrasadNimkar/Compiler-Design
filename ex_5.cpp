@@ -120,3 +120,6 @@ void delete1(symbol tab[], int n, char alpha)
     n = n - 1;
     display(tab, n);
 }
+/*Output:
+
+*/
