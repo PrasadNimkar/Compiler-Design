@@ -1,3 +1,4 @@
+/* Aim:           */
 #include <bits/stdc++.h>
 using namespace std;
 void isComment(string line)
@@ -23,3 +24,6 @@ int main()
 
     return 0;
 }
+/*Output:
+It is a multi-line comment
+*/
