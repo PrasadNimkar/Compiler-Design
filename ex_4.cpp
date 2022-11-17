@@ -1,4 +1,4 @@
-// Aim:     //
+// Aim:Implement a program to design finite autometa to simulate the stream for given input string.//
 #include <iostream>
 using namespace std;
 
@@ -75,5 +75,24 @@ int main()
     return 0;
 }
 /*Output:
-
+Enter the numbeer of state:3
+Enter state:1:A
+Enter state:2:B
+Enter state:3:C
+Enter initial state:A
+Enter final sate:C
+Enter number of i/p symbol:2
+Enter i/p symbol:1:0
+Enter i/p symbol:2:1
+Enter no. of transition:4
+Enter transition:1:AaA
+Enter transition:2:AbB
+Enter transition:3:BaC
+Enter transition:4:AaB
+A->aA
+A->bB
+B->aC
+A->aB
+Enter string:aab
+String is not accepted
 */
